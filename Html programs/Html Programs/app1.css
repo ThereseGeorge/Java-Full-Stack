@@ -1,0 +1,18 @@
+.cityclass{
+    font:italic;
+    background-color: aqua;
+    color:black;
+    padding: 20px ;
+    margin: 50px;
+    border: 20px;
+    }
+    p{
+    background-color:blueviolet;
+    color:black;
+    text-align: right;
+    }
+    #apph1{
+        background-color:blue;
+        color:black;
+
+    }
