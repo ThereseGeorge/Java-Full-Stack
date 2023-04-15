@@ -2,13 +2,22 @@
 
 
 
-POST http://localhost:8080/item/ HTTP/1.1 
+POST http://localhost:8080/cars/ HTTP/1.1 
 content-type: application/json
 
 {
     "id" : 12, 
-    "name" : "zwr", 
+    "make" : "zwr", 
     "model" : "a11", 
-    "price" : 45.90
+    "mfg" : "2020-01-01",
+    "cost" : 789
 }
 
+### Getting all cars
+
+
+GET http://localhost:8080/cars/ 
+
+### Getting single car by id
+
+GET http://localhost:8080/cars/17
