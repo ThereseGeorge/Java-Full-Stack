@@ -44,7 +44,7 @@ public class AssociationMappingsApplication {
 		ApplicationContext ctx= SpringApplication.run(AssociationMappingsApplication.class, args);
 		PersonService personService = ctx.getBean(PersonService.class);
 
-		demo3(personService);
+		demo1(personService);
 
 	}
 
